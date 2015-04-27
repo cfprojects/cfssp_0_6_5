@@ -1,0 +1,238 @@
+/***********************************************************************
+
+  Copyright (C) 2005  Ryan Guill (ryanguill@gmail.com)
+
+  This file is part of CF Manager for SlideShowPro (CFSSP).
+
+  CFSSP is free software; you can redistribute it and/or modify it
+  under the terms of the GNU General Public License as published
+  by the Free Software Foundation; either version 2 of the License,
+  or (at your option) any later version.
+
+  CFSSP is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+  MA  02111-1307  USA
+
+************************************************************************/
+body {
+	margin: 0;
+	padding: 0;
+	background: #949494;
+}
+
+a, a:link, a:visited, a:active {
+	color: #1E851B;
+	text-decoration: underline;
+	
+}
+
+div, p {
+	font-family: Verdana, Tahoma, Serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #333333;
+}
+
+input, submit, textarea, select, file, button{
+	margin-top: 2px 0 0 0;
+	padding: 0;
+	background-color: #EBEBEB;
+	border: #333333 1px solid;
+	color: #000000;
+}
+
+
+.disabled {
+	color: #999999;
+	border-color: #999999;
+	}
+
+h1 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+legend {
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+.alThumb {
+	border-color:##000000; 
+	border-width:thin; 
+	border-style:groove; 
+	padding: 1px 1px 1px 1px;
+	}
+	
+.small {
+	font-size:x-small;
+	}
+
+
+/* all id's and layout structures */
+
+#topbanner {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	background: #1E851B;
+	border-bottom: #2CB129 1px solid;
+}
+
+#bannercontainer {
+	margin: 0 auto;
+	padding: 10px;
+	width: 700px;
+}
+
+#bannercontainer h1 { color: #F6F6F6; }
+#bannercontainer a { color: #F6F6F6; }
+#bannercontainer span { color: #F6F6F6; }
+
+#container {
+	margin: 0 auto;
+	padding: 10px;
+	width: 700px;
+	background: #F6F6F6;
+}
+
+#leftnav {
+	margin: 0 auto;
+	padding: 10px;
+	width: 100px;	
+	display: block;
+	float: left;
+}
+
+ul#nav {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+ul#nav li {
+	margin: 2px 0;
+	padding: 0;
+	display: block;
+}
+
+#main {
+	margin: 0 0 0 120px;
+	padding: 10px;
+	width:  530px;
+	min-height: 500px;
+	border-left: #CCCCCC 1px dotted;
+}
+
+
+#crumbs {
+	font-size: 10px;
+	color: #333333;
+	text-align: right;
+}
+
+#crumbs a, #crumbs a:link, #crumbs a:visited, #crumbs a:active {
+	color: #1E851B;
+	text-decoration: none;
+}
+
+#crumbs a:hover { text-decoration: underline; }
+
+
+/* table classes */
+.tbl {
+	margin: 100px 0 0 0;
+	padding: 0;
+	width: 530px;
+	display: block;
+}
+
+.row {
+	margin: 0;
+	padding: 3px 0 0 0;
+	width: 530px;
+	height: 27px;
+	display: block;
+}
+
+.alt {
+	background: #eaeaea;
+}
+
+.c {
+	margin: 0;
+	padding: 5px;
+	display: block;
+	float: left;
+	text-align: center; 
+}
+
+.x1, .x4, .x5 { width: 50px; }
+
+.x2 { width: 130px; }
+
+.x3 {	width: 200px; }
+
+.x6 { width: 350px; }
+
+.al { text-align: left; }
+
+.ac { text-align: center; }
+
+.ar { text-align: right; }
+
+
+/* form classes */
+
+.formfield { margin-top: 75px; }
+
+.req { background: #DCB8BB; }
+
+.key { background: #DCB8BB; padding-left: 25px; }
+
+.fimg { background-color:#f6f6f6; border:none; }
+
+.alt .fimg { border:none; background: #eaeaea; }
+
+/* CLEARFIX HACK http://www.positioniseverything.net/easyclearing.html
+----------------------------------------------------------->*/
+ .clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+fieldset {
+	width: 500px;
+	background-color:#dddddd;
+	}
+legend {
+	font-weight: bold;
+	}
+
+dt {
+	font-weight:bold;
+	}

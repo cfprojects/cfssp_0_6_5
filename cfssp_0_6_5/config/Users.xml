@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adminusers>
+	<user email="admin@cfssp.com" name="Admin" password="5F4DCC3B5AA765D61D8327DEB882CF99" passwordset="{ts '1970-01-01 00:00:00'}" roles="GlobalAdmin" username="admin"/>
+</adminusers>

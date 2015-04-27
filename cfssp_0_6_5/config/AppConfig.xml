@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<version name="0.6.5" date="12/27/05" />
+	<!-- this value is not currently supported -->
+	<configset value="0" />
+	<settings>
+		<users>
+			<!-- I strongly suggest that you do not change this value.  If you do then you will be exposing your password both in the users.xml file and in a remember cookie, both in plain text.  Use at your own risk.  Possible values are 0 and 1 -->
+			<hashpasswords>1</hashpasswords>
+		</users>
+		<!-- Possible values are 0 (false) or 1 (true).  If set to true, users are presented with the opportunity for a cookie to be set with their username and password and not have to manually log in every time they use the application. -->
+		<login>
+			<allowremember>1</allowremember>
+		</login>
+		<!-- the use of these paths is no longer supported.  To change relative paths, please refer to manage/Application.cfm -->
+		<paths></paths>
+		<!-- the branding value is not currently used or supported -->
+		<branding>
+			<sitename></sitename>
+		</branding>
+		<!-- the following values are in pixels -->
+		<imagesizes>
+			<albumthumbnailwidth>42</albumthumbnailwidth>
+			<imagethumbnailwidth>100</imagethumbnailwidth>
+			<imagefullwidth>500</imagefullwidth>
+		</imagesizes>
+	</settings>
+</config>
